@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.b855171e.chunk.js",
-    "main.js.map": "/static/js/main.b855171e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.441ea7bd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.441ea7bd.js.map",
-    "static/js/2.9680f4dd.chunk.js": "/static/js/2.9680f4dd.chunk.js",
-    "static/js/2.9680f4dd.chunk.js.map": "/static/js/2.9680f4dd.chunk.js.map",
-    "static/js/3.bbcb91a2.chunk.js": "/static/js/3.bbcb91a2.chunk.js",
-    "static/js/3.bbcb91a2.chunk.js.map": "/static/js/3.bbcb91a2.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.9680f4dd.chunk.js.LICENSE.txt": "/static/js/2.9680f4dd.chunk.js.LICENSE.txt"
+    "main.css": "/coinmon/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/coinmon/static/js/main.94cefde0.chunk.js",
+    "main.js.map": "/coinmon/static/js/main.94cefde0.chunk.js.map",
+    "runtime-main.js": "/coinmon/static/js/runtime-main.04414f00.js",
+    "runtime-main.js.map": "/coinmon/static/js/runtime-main.04414f00.js.map",
+    "static/js/2.05526c47.chunk.js": "/coinmon/static/js/2.05526c47.chunk.js",
+    "static/js/2.05526c47.chunk.js.map": "/coinmon/static/js/2.05526c47.chunk.js.map",
+    "static/js/3.6c93b127.chunk.js": "/coinmon/static/js/3.6c93b127.chunk.js",
+    "static/js/3.6c93b127.chunk.js.map": "/coinmon/static/js/3.6c93b127.chunk.js.map",
+    "index.html": "/coinmon/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/coinmon/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.05526c47.chunk.js.LICENSE.txt": "/coinmon/static/js/2.05526c47.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.441ea7bd.js",
-    "static/js/2.9680f4dd.chunk.js",
+    "static/js/runtime-main.04414f00.js",
+    "static/js/2.05526c47.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.b855171e.chunk.js"
+    "static/js/main.94cefde0.chunk.js"
   ]
 }

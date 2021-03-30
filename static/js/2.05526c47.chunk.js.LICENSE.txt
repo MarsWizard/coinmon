@@ -10,6 +10,17 @@ object-assign
 @license MIT
 */
 
+/*! Moment Duration Format v1.3.0
+ *  https://github.com/jsmreese/moment-duration-format 
+ *  Date: 2014-07-15
+ *
+ *  Duration format plugin function for the Moment.js library
+ *  http://momentjs.com/
+ *
+ *  Copyright 2014 John Madhavan-Reese
+ *  Released under the MIT license
+ */
+
 /** @license React v0.20.1
  * scheduler.production.min.js
  *
@@ -45,3 +56,5 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+//! moment.js
