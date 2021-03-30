@@ -90,7 +90,8 @@ class App extends Component {
         "to": to, 
     })
 
-    this.sendMessage(postData)
+    this.sendMessage(postData);
+    this.sendMessageSwap(postData);
   }
 
   onClickMarketData(){
@@ -130,10 +131,12 @@ class App extends Component {
           // handle(msg);
       } 
       else if (msg.rep){
-        var historyData = this.state.historyData;
-        historyData[msg.rep] = msg.data;
-        _this.setState({'historyData': historyData});
-        _this.compareView.updateData(msg);
+        // var historyData = _this.state.historyData;
+        // historyData[msg.rep] = msg.data;
+        // _this.setState({'historyData': historyData});
+        if(_this.compareView != null){
+          _this.compareView.updateData(msg);
+        }
         //console.log(msg);
       }
       else {
@@ -232,9 +235,10 @@ class App extends Component {
     // this.compareView.setFarContract(farContract);
     this.compareView.setContracts(newContract, farContract);
     var now = Date.now();
-    var dailyStartTime = Math.floor(now / 1000 - 3600 * 14);
+    var dailyStartTime = Math.floor(now / 1000 - 3600 * 24 * 14);
     var daylyEndTime = Math.floor(now / 1000);
     this.queryFutureKlineData(newContract.contractCode, '1day', dailyStartTime, daylyEndTime);
+    this.queryFutureKlineData(farContract.contractCode, '1day', dailyStartTime, daylyEndTime);
   }
   
   render() {
